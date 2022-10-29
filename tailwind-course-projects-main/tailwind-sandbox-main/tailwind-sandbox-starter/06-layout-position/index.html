@@ -9,23 +9,50 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-500">
+      <p>Parent element</p>
+      <div class="absolute bg-blue-500 right-0 bottom-0">
+        <p>Child element</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute top-0 left-0 bg-yellow-500 w-16 h-16"></div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-green-100">
+      <div class="absolute top-0 right-0 bg-green-500 w-16 h-16"></div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-red-100">
+      <div class="absolute bottom-0 left-0 bg-white w-16 h-16"></div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-blue-100">
+      <div class="absolute bottom-0 right-0 bg-blue-500 w-16 h-16"></div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute top-0 inset-x-0 bg-black h-12"></div>
+    </div>
 
     <!-- Span left edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 inset-y-0 bg-black w-12"></div>
+    </div>
     <!-- Span right edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 inset-y-0 bg-black w-12"></div>
+    </div>
     <!-- Span bottom edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute bottom-0 inset-x-0 bg-black h-12"></div>
+    </div>
     <!-- Display Classes -->
 
     <!-- Z-Index -->

@@ -7,18 +7,38 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Typography</title>
   </head>
+  <script>
+    module.exports = {
+      theme: {
+        fontFamily: {
+          sans: ["ui-sans-serif", "system-ui"],
+          serif: ["ui-serif", "Georgia"],
+          mono: ["ui-monospace", "SFMono-Regular"],
+        },
+      },
+    }
+  </script>
   <body>
     <!-- Font Family -->
+    <div class="font-sans">Tailwind is awesome</div>
+    <div class="font-serif">Tailwind is awesome</div>
+    <div class="font-monospace">Tailwind is awesome</div>
 
     <!-- Font Size -->
+    <div class="font-serif text-xl">Tailwind is awesome</div>
+    <div class="font-serif font-black">Tailwind is awesome</div>
 
     <!-- Font Weight -->
 
     <!-- Letter Spacing -->
 
     <!-- Text Alignment -->
+    <div class="text-left">tailwind is awesome</div>
+    <div class="text-center">Tailwind is awesome</div>
+    <div class="text-right">Tailwind is awesome</div>
 
     <!-- Text Decoration -->
+    <div class="underline decoration-4">Tailwind is awesome</div>
 
     <!-- Decoration Style -->
 
